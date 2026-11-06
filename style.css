@@ -1,0 +1,51 @@
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("amala.webp") center/cover no-repeat;
+
+    
+    :root {
+  --brown: #3b2416;
+  --gold: #e0a030;
+  --cream: #fbf5ea;
+
+  --bs-dark-rgb: 59, 36, 22;
+  --bs-light-rgb: 241, 232, 214;
+  --bs-body-bg: var(--cream);
+  --bs-body-color: #2b1d14;
+  --bs-body-font-family: 'Nunito Sans', sans-serif;
+  --bs-warning-text-emphasis: #8a4b00;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+  font-family: 'Fraunces', serif;
+}
+
+.btn-warning {
+  --bs-btn-color: var(--brown);
+  --bs-btn-bg: var(--gold);
+  --bs-btn-border-color: var(--gold);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #b87703;
+  --bs-btn-hover-border-color: #b87703;
+}
+
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+              url("images/hero.jpg") center/cover no-repeat;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 4rem);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+#about img {
+  object-fit: cover;
+  max-height: 380px;
+}
